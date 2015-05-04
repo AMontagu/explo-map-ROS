@@ -1,0 +1,4 @@
+<launch>
+	<node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+	<node name="exploration" pkg="explo_map" type="explo.py" output="screen"/>
+</launch>
